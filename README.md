@@ -26,7 +26,7 @@
 
 ## Overview
 
-This project presents an affordable, emotionally intelligent social robot designed for real-world companion applications — including **elderly care support**, **autism education**, and **basic mental health interaction**. Built around a Raspberry Pi 5 and a custom-trained PyTorch CNN, the robot bridges the gap between high-cost commercial social robots (£8,000–£15,000) and truly accessible, community-deployable alternatives — at a total build cost of approximately **£150**.
+This project presents an affordable, emotionally intelligent social robot designed for real-world companion applications — including **elderly care support**, **autism education**, and **basic mental health interaction**. Built around a Raspberry Pi 5 and a custom-trained PyTorch CNN, the robot bridges the gap between high-cost commercial social robots (£8,000–£15,000) and truly accessible, community deployable alternatives at a total build cost of approximately **£150**.
 
 ---
 
@@ -35,7 +35,7 @@ This project presents an affordable, emotionally intelligent social robot design
 ### 🧠 7-Class Real-Time Facial Emotion Recognition
 - Custom PyTorch CNN trained on the **FER-2013** dataset
 - Recognises: `Angry`, `Disgust`, `Fear`, `Happy`, `Neutral`, `Sad`, `Surprise`
-- ~**95% validation accuracy** | ~**45 ms** inference on Raspberry Pi
+- ~**95% validation accuracy** | ~**25 ms** inference on Raspberry Pi
 
 ### 👁️ Face Tracking & Emotional Gestures
 - Pan servo continuously follows the user's face
@@ -189,7 +189,7 @@ The script will train or validate the model using the FER2013 dataset and save t
 | Metric | Result |
 |---|---|
 | Emotion recognition accuracy | ~95% (validation) |
-| Inference speed on Raspberry Pi | ~45 ms per frame |
+| Inference speed on Raspberry Pi | ~25 ms per frame |
 | User satisfaction (emotional appropriateness) | **95%** across 50 test sessions |
 | Build cost | ~**£150** |
 | Comparable commercial robots | £8,000–£15,000 |
